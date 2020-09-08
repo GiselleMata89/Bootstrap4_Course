@@ -1,0 +1,16 @@
+{
+  "name": "coursera-bootstrap",
+  "version": "1.0.0",
+  "description": "Nuestro primer proyecto de Nodejs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://giselle89@bitbucket.org/giselle89/coursera-bootstrap.git"
+  },
+  "author": "Giselle Mata",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/giselle89/coursera-bootstrap#readme"
+}
