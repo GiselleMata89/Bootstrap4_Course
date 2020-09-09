@@ -1,5 +1,5 @@
 .jumbotron{
-    background-color: yellow;
+    background-color: rgb(255, 251, 42);
     color: black;
 }
 .btn{
@@ -7,9 +7,31 @@
     width: 100%;
 }
 
+.card-hotel{
+    /* background-color: rgb(194, 248, 241); */
+    text-align: center;
+}
+.bar-hotel{
+    background-color: rgb(194, 248, 241);
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+.services{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(24, 131, 163);
+}
 footer{
     padding: 10px 10px 0 10px;
-    background-color: yellow;
+    background-color: rgb(255, 251, 42);
     margin-bottom: 0px;
     margin-top: 10px;
 }
+address{
+    font-weight: bold;
+    text-align: center;
+}
+
+
