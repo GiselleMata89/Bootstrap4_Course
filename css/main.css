@@ -1,6 +1,7 @@
 .jumbotron{
     background-color: rgb(255, 251, 42);
     color: black;
+    margin-top: 40px;
 }
 .btn{
     background-color:rgb(24, 131, 163);
@@ -31,7 +32,8 @@ footer{
 }
 address{
     font-weight: bold;
-    text-align: center;
+    text-align: start;
 }
-
-
+.icon{
+    padding: 5px;
+}

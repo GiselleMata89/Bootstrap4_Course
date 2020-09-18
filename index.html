@@ -8,13 +8,39 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css\main.css">
+
+    <!-- Inconos Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
     <title>Guia-Hoteles</title>
+    
     </head>
     <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a href="" class="navbar-brand">Hoteles</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="navbar-item active"><a class="nav-link" href="#">Home</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="about.html">Nosotros</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="presentacion.html">Presentación</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="terminos.html">Términos</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
         <div class="jumbotron">
-            <h1>Hoteles</h1>
+            <h1>Guía de Hoteles</h1>
         </div>
-        <div class="container-fluid">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item active" aria-current="page">Home</li>
+                </ol>
+              </nav>
             <div class="row">
                 <div class="col-sm card-hotel d-flex flex-column justify-content-between">
                     <div>
@@ -52,24 +78,24 @@
                 <div class="col-sm bar-hotel d-flex flex-column justify-content-between">
                     <div>
                         <h5>AQ Tailored Suites</h5>
-                        <p><a class="btn btn-primary btn-lg" role="button">Reservar</a></p>
+                        <p><a class="btn btn-primary btn-lg" role="button"><i class="far fa-calendar-alt icon"></i>Reservar</a></p>
                     </div>
                     <div>
                         <h5>Hotel Madero</h5>
-                        <p><a class="btn btn-primary btn-lg" role="button">Reservar</a></p>
+                        <p><a class="btn btn-primary btn-lg" role="button"><i class="far fa-calendar-alt icon"></i>Reservar</a></p>
                     </div>
                     <div>
                         <h5>Recoleta Park</h5>
-                        <p><a class="btn btn-primary btn-lg" role="button">Reservar</a></p>
+                        <p><a class="btn btn-primary btn-lg" role="button"><i class="far fa-calendar-alt icon"></i>Reservar</a></p>
                     </div>
                     <div>
                         <h5>Palladio Hotel</h5>
-                        <p><a class="btn btn-primary btn-lg" role="button">Reservar</a></p>
+                        <p><a class="btn btn-primary btn-lg" role="button"><i class="far fa-calendar-alt icon"></i>Reservar</a></p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid services">
+        <div class="container services">
             <div class="row">
                 <div class="col-sm d-flex flex-column justify-content-between">
                     <div>
@@ -112,21 +138,21 @@
         <footer>
             <div class="row">
                 <div class="col-sm-4 d-flex flex-column">
-                    <a href="http://www.facebook.com/">Facebook</a>
-                    <a href="http://www.whatsapp.com/">Whatsapp</a>
-                    <a href="http://www.linkedin.com/">Linkedin</a>
+                    <a href="http://www.facebook.com/"><i class="fab fa-facebook-square icon"></i>Facebook</a>
+                    <a href="http://www.whatsapp.com/"><i class="fab fa-whatsapp icon"></i>Whatsapp</a>
+                    <a href="http://www.linkedin.com/"><i class="fab fa-linkedin icon"></i>Linkedin</a>
                 </div>
                 <div class="col-sm-4">
                     <address>
-                    Tucuman 834, CABA-Argentina
-                    Telf.: +5491122334455
-                    contacto@guiahoteles.com
+                        <i class="fas fa-home icon"></i>Tucuman 834, CABA-Argentina <br>
+                        <i class="fas fa-phone-square-alt icon"></i>Telf.: +5491122334455 <br>
+                        <i class="fas fa-envelope-square icon"></i>Contacto@guiahoteles.com <br>
                     </address>
                 </div>
                 <div class="col-sm-4 d-flex flex-column align-items-end">
-                    <a href="http://www.facebook.com/">Nosotros</a>
-                    <a href="http://www.whatsapp.com/">Precios</a>
-                    <a href="http://www.linkedin.com/">Reservas</a>
+                    <a href="http://www.facebook.com/">Nosotros<i class="fas fa-globe-americas icon"></i></a>
+                    <a href="http://www.whatsapp.com/">Precios<i class="fas fa-hand-holding-usd icon"></i></a>
+                    <a href="http://www.linkedin.com/">Reservas<i class="far fa-calendar-alt icon"></i></a>
                 </div>
             </div>
         </footer>
