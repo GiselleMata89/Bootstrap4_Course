@@ -12,12 +12,15 @@
     /* background-color: rgb(194, 248, 241); */
     text-align: center;
 }
+
 .bar-hotel{
     background-color: rgb(194, 248, 241);
     text-align: center;
     border-radius: 10px;
-    margin-right: 10px;
+    margin-left: 10px;
     padding-top: 10px;
+    overflow-y: scroll;;
+    max-height: 520px;
 }
 .services{
     margin-top: 10px;
@@ -32,8 +35,16 @@ footer{
 }
 address{
     font-weight: bold;
-    text-align: start;
+    text-align: center;
 }
 .icon{
     padding: 5px;
+}
+.fa-star{
+    color: gold;
+}
+.enfacis{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0;
 }
