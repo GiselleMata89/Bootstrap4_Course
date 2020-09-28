@@ -3,11 +3,13 @@
     color: black;
     margin-top: 40px;
 }
-.btn{
+.button_style{
     background-color:rgb(24, 131, 163);
     width: 100%;
 }
-
+.btn-reserva{
+    width: 100%;
+}
 .card-hotel{
     /* background-color: rgb(194, 248, 241); */
     text-align: center;
@@ -50,4 +52,7 @@ address{
 }
 .carousel-mg{
     margin-bottom: 1rem;
+}
+.tab-content{
+    padding-top: 10px;
 }

@@ -17,7 +17,7 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-            <a href="" class="navbar-brand">Hoteles</a>
+            <a href="index.html" class="navbar-brand">Hoteles</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -44,114 +44,176 @@
                 </ol>
             </nav>
             <h2>Escala de Precios</h2>
-            <div class="table-responsive">
-                <table class="table table-hover ">
-                    <thead class="thead-light">
-                        <tr>
-                            <th scope="col">Calidad</th>
-                            <th scope="col">Buenos Aires</th>
-                            <th scope="col">Bariloche</th>
-                            <th scope="col">Ushuaia</th>
-                            <th scope="col">Salta</th>
-                            <th scope="col">Neuquen</th>
-                            <th scope="col">Mendoza</th>
-                            <th scope="col">Tucuman</th>
-                            <th scope="col">Córdoba</th>
-                            <th scope="col">Jujuy</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">
-                                <i class="fas fa-star"></i>
-                            </th>
-                            <td>1400$</td>
-                            <td>1600$</td>
-                            <td>2000$</td>
-                            <td>1200$</td>
-                            <td>1500$</td>
-                            <td>1700$</td>
-                            <td>1300$</td>
-                            <td>1500$</td>
-                            <td>1400$</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </th>
-                            <td>1700$</td>
-                            <td>1800$</td>
-                            <td>2500$</td>
-                            <td>1600$</td>
-                            <td>1900$</td>
-                            <td>2000$</td>
-                            <td>1500$</td>
-                            <td>1800$</td>
-                            <td>1600$</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </th>
-                            <td>2400$</td>
-                            <td>2500$</td>
-                            <td>2800$</td>
-                            <td>2200$</td>
-                            <td>2500$</td>
-                            <td>2400$</td>
-                            <td>2100$</td>
-                            <td>2500$</td>
-                            <td>2300$</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </th>
-                            <td>3200$</td>
-                            <td>3400$</td>
-                            <td>3800$</td>
-                            <td>3000$</td>
-                            <td>3300$</td>
-                            <td>3300$</td>
-                            <td>2900$</td>
-                            <td>3300$</td>
-                            <td>3400$</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </th>
-                            <td>4500$</td>
-                            <td>4700$</td>
-                            <td>7200$</td>
-                            <td>4200$</td>
-                            <td>4600$</td>
-                            <td>4400$</td>
-                            <td>4700$</td>
-                            <td>4600$</td>
-                            <td>4300$</td>
-                        </tr>
-                    </tbody>
-                </table> 
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="escala-tab" data-toggle="tab" role="tab" aria-controls="escala" aria-selected="true" href="#escala">Escala</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="tarjetas-tab" data-toggle="tab" role="tab" aria-controls="tarjetas" aria-selected="false" href="#tarjetas">Tarjetas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="comentarios-tab" data-toggle="tab" role="tab" aria-controls="comentarios" aria-selected="false" href="#comentarios">Comentarios</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="escala" role="tabpanel" aria-labelledby="escala-tab">
+                    <div class="table-responsive">
+                        <table class="table table-hover ">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th scope="col">Calidad</th>
+                                    <th scope="col">Buenos Aires</th>
+                                    <th scope="col">Bariloche</th>
+                                    <th scope="col">Ushuaia</th>
+                                    <th scope="col">Salta</th>
+                                    <th scope="col">Neuquen</th>
+                                    <th scope="col">Mendoza</th>
+                                    <th scope="col">Tucuman</th>
+                                    <th scope="col">Córdoba</th>
+                                    <th scope="col">Jujuy</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">
+                                        <i class="fas fa-star"></i>
+                                    </th>
+                                    <td>1400$</td>
+                                    <td>1600$</td>
+                                    <td>2000$</td>
+                                    <td>1200$</td>
+                                    <td>1500$</td>
+                                    <td>1700$</td>
+                                    <td>1300$</td>
+                                    <td>1500$</td>
+                                    <td>1400$</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </th>
+                                    <td>1700$</td>
+                                    <td>1800$</td>
+                                    <td>2500$</td>
+                                    <td>1600$</td>
+                                    <td>1900$</td>
+                                    <td>2000$</td>
+                                    <td>1500$</td>
+                                    <td>1800$</td>
+                                    <td>1600$</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </th>
+                                    <td>2400$</td>
+                                    <td>2500$</td>
+                                    <td>2800$</td>
+                                    <td>2200$</td>
+                                    <td>2500$</td>
+                                    <td>2400$</td>
+                                    <td>2100$</td>
+                                    <td>2500$</td>
+                                    <td>2300$</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </th>
+                                    <td>3200$</td>
+                                    <td>3400$</td>
+                                    <td>3800$</td>
+                                    <td>3000$</td>
+                                    <td>3300$</td>
+                                    <td>3300$</td>
+                                    <td>2900$</td>
+                                    <td>3300$</td>
+                                    <td>3400$</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </th>
+                                    <td>4500$</td>
+                                    <td>4700$</td>
+                                    <td>7200$</td>
+                                    <td>4200$</td>
+                                    <td>4600$</td>
+                                    <td>4400$</td>
+                                    <td>4700$</td>
+                                    <td>4600$</td>
+                                    <td>4300$</td>
+                                </tr>
+                            </tbody>
+                        </table> 
+                    </div>
+                </div>
+                <div class="tab-pane" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
+                    <div class="list-group" style="width: 18rem;">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item active"><i class="far fa-credit-card icon"></i>Tarjetas Aceptadas</li>
+                        </ul>
+                    </div>
+                    <div class="accordion" id="accordionTarjetas">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn" type="button" data-toggle="collapse" data-target="#collapseVisa" aria-expanded="true" aria-controls="collapseVisa">Tarjeta Visa
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseVisa" class="collapse" aria-labelledby="headingOne" data-parent="#accordionTarjetas">
+                                <div class="card-body">
+                                    Puedes acceder hasta 12 cuotas sin interés.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion" id="accordionTarjetas">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn" type="button" data-toggle="collapse" data-target="#collapseMaster" aria-expanded="false" aria-controls="collapseMaster">Tarjeta Master
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseMaster" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionTarjetas">
+                                <div class="card-body">
+                                    Puedes acceder hasta 12 cuotas sin interés.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion" id="accordionTarjetas">
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn" type="button" data-toggle="collapse" data-target="#collapseAmerican" aria-expanded="false" aria-controls="collapseAmerican">Tarjeta Master
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseAmerican" class="collapse" aria-labelledby="headingThree" data-parent="#accordionTarjetas">
+                                <div class="card-body">
+                                    Puedes acceder hasta 6 cuotas sin interés.
+                                </div>
+                            </div>
+                        </div>
+                    </div>           
+                </div>
+                <div class="tab-pane fade" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">
+
+                </div>
             </div>
-            <div class="list-group" style="width: 18rem;">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item active"><i class="far fa-credit-card icon"></i>Tarjetas Aceptadas</li>
-                    <button type="button" class="list-group-item list-group-item-action">Visa Clasica, Gold, Black</button>
-                    <button type="button" class="list-group-item list-group-item-action">Marstercard Clasica, Gold, Black</button>
-                    <button type="button" class="list-group-item list-group-item-action">American Clasica, Gold, Black</button>
-                </ul>
-            </div>            
         </div>
         <footer>
             <div class="row">

@@ -17,7 +17,7 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-            <a href="" class="navbar-brand">Hoteles</a>
+            <a href="index.html" class="navbar-brand">Hoteles</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -83,12 +83,12 @@
                 <div class="col-lg card card-hotel d-flex flex-column justify-content-between">
                     <div class="card-body">
                         <img src="img/hotel_5.jpg" class="card-img-top">
-                        <h5 class="card-title">Miravid Soho Hotel</h5>
+                        <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Promociones especiales para el destino Bariloche">Miravid Soho Hotel</h5>
                         <h6 class="card-subtitle text-muted">Bariloche</h6>
                         <p class="card-text">En Miravid Soho Hotel nos gusta cuidarte y siempre pensamos en lo mejor para vos. Queremos que te sientas como en casa y por eso, ahora más que nunca, tu salud es lo más importante.</p>
                     </div>
                     <div>
-                        <p><a class="btn btn-primary btn-lg" role="button">Leer más</a></p>
+                        <p><a class="btn btn-outline-success btn-lg btn-reserva" type="button" data-toggle="modal" data-target="#contacto">Contacto</a></p>
                     </div>
                 </div>
                 <div class="col-lg card card-hotel d-flex flex-column justify-content-between">
@@ -99,7 +99,7 @@
                         <p class="card-text">Bienvenido a Four Seasons Hotel, tu segundo hogar en Buenos Aires. Four Seasons Hotel tiene como objetivo conseguir que tu visita sea lo más relajante y agradable posible.</p>
                     </div>
                     <div>
-                        <p><a class="btn btn-primary btn-lg" role="button">Leer más</a></p>
+                        <p><a class="btn btn-outline-success btn-lg btn-reserva" type="button" data-toggle="modal" data-target="#contacto">Contacto</a></p>
                     </div>
                 </div>
                 <div class="col-lg card card-hotel d-flex flex-column justify-content-between">
@@ -110,29 +110,29 @@
                         <p class="card-text">En Duques Hotel Boutique & Spa Ushuaia, actualmente estamos aceptando reservas y aplicamos un protocolo de seguridad para proteger y asegurar tanto a nuestro equipo como a nuestros huéspedes.</p>
                     </div>
                     <div>
-                        <p><a class="btn btn-primary btn-lg" role="button">Leer más</a></p>
+                        <p><a class="btn btn-outline-success btn-lg btn-reserva" type="button" data-toggle="modal" data-target="#contacto">Contacto</a></p>
                     </div>
                 </div>
                 <div class="col-lg bar-hotel d-flex flex-column justify-content-between">
                     <div>
                         <img src="img/hotel_1.jpg" class="card-img-top">
                         <h5 class="card-title">Tailored Suites</h5>
-                        <p><a class="btn btn-primary btn-lg" role="button"><i class="far fa-calendar-alt icon"></i>Reservar</a></p>
+                        <p><a class="btn btn-primary btn-lg button_style" role="button" data-toggle="popover" title="Importante" data-content="Consulta disponibilidad de fechas"><i class="far fa-calendar-alt icon"></i>Reservar</a></p>
                     </div>
                     <div>
                         <img src="img/hotel_2.jpg" class="card-img-top">
                         <h5 class="card-title">Hotel Madero</h5>
-                        <p><a class="btn btn-primary btn-lg" role="button"><i class="far fa-calendar-alt icon"></i>Reservar</a></p>
+                        <p><a class="btn btn-primary btn-lg button_style" role="button" data-toggle="popover" title="Importante" data-content="Consulta disponibilidad de fechas"><i class="far fa-calendar-alt icon"></i>Reservar</a></p>
                     </div>
                     <div>
                         <img src="img/hotel_3.jpg" class="card-img-top">
                         <h5>Recoleta Park</h5>
-                        <p><a class="btn btn-primary btn-lg" role="button"><i class="far fa-calendar-alt icon"></i>Reservar</a></p>
+                        <p><a class="btn btn-primary btn-lg button_style" role="button" data-toggle="popover" title="Importante" data-content="Consulta disponibilidad de fechas"><i class="far fa-calendar-alt icon"></i>Reservar</a></p>
                     </div>
                     <div>
                         <img src="img/hotel_4.jpg" class="card-img-top">
                         <h5>Palladio Hotel</h5>
-                        <p><a class="btn btn-primary btn-lg" role="button"><i class="far fa-calendar-alt icon"></i>Reservar</a></p>
+                        <p><a class="btn btn-primary btn-lg button_style" role="button" data-toggle="popover" title="Importante" data-content="Consulta disponibilidad de fechas"><i class="far fa-calendar-alt icon"></i>Reservar</a></p>
                     </div>
                 </div>
             </div>
@@ -145,7 +145,7 @@
                         <p>Descubre las promociones y descuentos en noches de hotel que tenemos para vos.</p>
                     </div>
                     <div>
-                        <p><a class="btn btn-primary btn-lg text-nowrap" role="button">Ir a ofertas</a></p>
+                        <p><a class="btn btn-primary btn-lg text-nowrap button_style" role="button">Ir a ofertas</a></p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3 d-flex flex-column justify-content-between">
@@ -154,7 +154,7 @@
                         <p>Recorre los diferentes puntos turísticos más importantes con un guía personal.</p>
                     </div>
                     <div>
-                        <p><a class="btn btn-primary btn-lg text-nowrap" role="button">Reservar turno</a></p>
+                        <p><a class="btn btn-primary btn-lg text-nowrap button_style" role="button">Reservar turno</a></p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3 d-flex flex-column justify-content-between">
@@ -163,7 +163,7 @@
                         <p>Planifica tus vacaciones con actividades programadas all inclusive.</p>
                     </div>
                     <div>
-                        <p><a class="btn btn-primary btn-lg text-nowrap" role="button">Reservar paquete <span class="badge badge-dark">Nuevo</span></a></p>
+                        <p><a class="btn btn-primary btn-lg text-nowrap button_style" role="button">Reservar paquete <span class="badge badge-dark">Nuevo</span></a></p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3 d-flex flex-column justify-content-between">
@@ -172,7 +172,34 @@
                         <p>Un día de Spa o de pileta es posible en los mejores Hoteles de la Ciudad de la Furia.</p>
                     </div>
                     <div>
-                        <p><a class="btn btn-primary btn-lg text-nowrap" role="button">Comprar ticket</a></p>
+                        <p><a class="btn btn-primary btn-lg text-nowrap button_style" role="button">Comprar ticket</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-tittle" id="exampleModalLabel">Contacto con el Hotel</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Tu email:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="col-form-label">Mensaje:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-success">Enviar</button>
                     </div>
                 </div>
             </div>
@@ -203,5 +230,13 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+        $('[data-toggle="popover"]').popover()
+        $('.corousel').carousel({
+            interval: 1000
+        })
+    })</script>
     </body>
 </html>
