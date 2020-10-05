@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css\main.css">
+    <link rel="stylesheet" href="css\styles.css">
 
     <!-- Inconos Fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
@@ -88,7 +88,7 @@
                         <p class="card-text">En Miravid Soho Hotel nos gusta cuidarte y siempre pensamos en lo mejor para vos. Queremos que te sientas como en casa y por eso, ahora más que nunca, tu salud es lo más importante.</p>
                     </div>
                     <div>
-                        <p><a class="btn btn-outline-success btn-lg btn-reserva" type="button" data-toggle="modal" data-target="#contacto">Contacto</a></p>
+                        <p><a class="btn btn-outline-success btn-lg btn-reserva" type="button" data-toggle="modal" data-target="#contacto" id="contactoBtn">Contacto</a></p>
                     </div>
                 </div>
                 <div class="col-lg card card-hotel d-flex flex-column justify-content-between">
@@ -99,7 +99,7 @@
                         <p class="card-text">Bienvenido a Four Seasons Hotel, tu segundo hogar en Buenos Aires. Four Seasons Hotel tiene como objetivo conseguir que tu visita sea lo más relajante y agradable posible.</p>
                     </div>
                     <div>
-                        <p><a class="btn btn-outline-success btn-lg btn-reserva" type="button" data-toggle="modal" data-target="#contacto">Contacto</a></p>
+                        <p><a class="btn btn-outline-success btn-lg btn-reserva" type="button" data-toggle="modal" data-target="#contacto" id="contactoBtn">Contacto</a></p>
                     </div>
                 </div>
                 <div class="col-lg card card-hotel d-flex flex-column justify-content-between">
@@ -110,7 +110,7 @@
                         <p class="card-text">En Duques Hotel Boutique & Spa Ushuaia, actualmente estamos aceptando reservas y aplicamos un protocolo de seguridad para proteger y asegurar tanto a nuestro equipo como a nuestros huéspedes.</p>
                     </div>
                     <div>
-                        <p><a class="btn btn-outline-success btn-lg btn-reserva" type="button" data-toggle="modal" data-target="#contacto">Contacto</a></p>
+                        <p><a class="btn btn-outline-success btn-lg btn-reserva" type="button" data-toggle="modal" data-target="#contacto" id="contactoBtn">Contacto</a></p>
                     </div>
                 </div>
                 <div class="col-lg bar-hotel d-flex flex-column justify-content-between">
@@ -228,7 +228,7 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script>
         $(function () {
@@ -236,7 +236,16 @@
         $('[data-toggle="popover"]').popover()
         $('.corousel').carousel({
             interval: 1000
-        })
+        });
+        $('#contacto').on('show.bs.modal', function(e){
+            console.log('El modal se está mostrando');
+            $('#contactoBtn1').removeClass('btn-outline-success');
+            $('#contactoBtn').addClass('btn-primary');
+        });
+        $('#contacto').on('hidden.bs.modal', function(e){
+            console.log('El modal se ocultó');
+        });
+
     })</script>
     </body>
 </html>

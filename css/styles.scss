@@ -1,0 +1,64 @@
+$yellow: #faf72f;
+
+@mixin margenes ($top, $bottom) {
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+
+.jumbotron{
+    background-color: $yellow;
+    color: black;
+    @include margenes(50px, 10px);
+}
+.button_style{
+    background-color:rgb(24, 131, 163);
+    width: 100%;
+}
+.btn-reserva{
+    width: 100%;
+}
+.card-hotel{
+    /* background-color: rgb(194, 248, 241); */
+    text-align: center;
+}
+
+.bar-hotel{
+    background-color: rgb(194, 248, 241);
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    overflow-y: scroll;;
+    max-height: 520px;
+}
+.services{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(24, 131, 163);
+}
+footer{
+    padding: 10px 10px 0 10px;
+    background-color: $yellow;
+    @include margenes(10px, 0px)
+}
+address{
+    font-weight: bold;
+    text-align: center;
+}
+.icon{
+    padding: 5px;
+}
+.fa-star{
+    color: gold;
+}
+.enfacis{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.carousel-mg{
+    margin-bottom: 1rem;
+}
+.tab-content{
+    padding-top: 10px;
+}
